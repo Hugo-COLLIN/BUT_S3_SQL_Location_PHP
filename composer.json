@@ -1,0 +1,15 @@
+{
+    "name": "iutnc/location",
+    "autoload": {
+        "psr-4": {
+            "iutnc\\location\\": "src/classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hugo COLLIN",
+            "email": "hugo.collin1@outlook.fr"
+        }
+    ],
+    "require": {}
+}
