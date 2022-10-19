@@ -15,6 +15,9 @@ DS_store
 # Log file
 *.log
 
+# Ini files
+*.ini
+
 # BlueJ files
 *.ctxt
 
