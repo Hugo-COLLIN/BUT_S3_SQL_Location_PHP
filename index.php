@@ -23,6 +23,16 @@ $ad = new \iutnc\location\db\AccessData();
 switch ($action)
 {
     case 'listVehic' :
+        if ($_SERVER['REQUEST_METHOD'] == "GET")
+            $rend .= <<<END
+            <form method='post' action='?action=listVehic'>
+                Catégorie : <input type='email' name='mail'>
+                Date de début : <input type='number' name='age'>
+                Date de fin : <input type='text' name='genre'>
+                <input type='submit' value='Valider'>
+            </form>
+            END;
+
         break;
     case 'majCal':
         break;
