@@ -1,14 +1,19 @@
 <?php
 require_once "vendor/autoload.php";
-//require_once "src/classes/db/AccessData.php";
 
+use iutnc\location\db\ConnectionFactory;
+//require_once "src/classes/db/AccessData.php";
+/*
 try {
     $pdo = new PDO('mysql:host=localhost;dbname=s3_location', 'root', '');
 }
 catch (PDOException $e)
 {
     exit('Database error.');
-}
+}*/
+
+ConnectionFactory::setConfig('./config/db.config.ini');
+ConnectionFactory::makeConnection();
 
 $rend = "";
 $action = $_GET['action'] ?? "";
