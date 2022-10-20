@@ -44,12 +44,6 @@ class AccessData
         return $res;
     }
 
-    public function pstSet(\PDOStatement $rs, array $params) : void
-    {
-        for ($i = 0 ; $i < sizeof($params) ; $i ++)
-            $rs->bindParam($i + 1, $params[$i]);
-    }
-
     public function testQuery ()
     {
 
@@ -72,5 +66,11 @@ class AccessData
             $res .= "<br>";
         }
         return $res;
+    }
+
+    public function stSet (array $params)
+    {
+        for ($i = 0 ; $i < $this->st->columnCount() ; $i ++)
+            $this->st->bindValue($i + 1, $params[$i]);
     }
 }
