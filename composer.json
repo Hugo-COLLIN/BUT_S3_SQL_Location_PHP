@@ -11,5 +11,7 @@
             "email": "hugo.collin1@outlook.fr"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-pdo": "*"
+    }
 }

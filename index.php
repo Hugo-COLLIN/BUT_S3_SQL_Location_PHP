@@ -2,36 +2,43 @@
 require_once "vendor/autoload.php";
 
 use iutnc\location\db\ConnectionFactory;
-//require_once "src/classes/db/AccessData.php";
-/*
-try {
-    $pdo = new PDO('mysql:host=localhost;dbname=s3_location', 'root', '');
-}
-catch (PDOException $e)
-{
-    exit('Database error.');
-}*/
 
 ConnectionFactory::setConfig('./config/db.config.ini');
 ConnectionFactory::makeConnection();
 
 $rend = "";
 $action = $_GET['action'] ?? "";
+$error = "";
 
 $ad = new \iutnc\location\db\AccessData();
 
 switch ($action)
 {
     case 'listVehic' :
-        if ($_SERVER['REQUEST_METHOD'] == "GET")
+        $method = $_SERVER['REQUEST_METHOD'];
+        $checkfields = (!isset($_POST['categ'], $_POST['startD'], $_POST['endD']) || ($_POST['categ'] == "" || $_POST['startD'] == "" || $_POST['endD'] == "")) && $method == "POST";
+        if ($method == "GET" || $checkfields)
+        {
+            $error = $checkfields ? "Veuillez remplir tous les champs !" : "";
+
             $rend .= <<<END
             <form method='post' action='?action=listVehic'>
-                Catégorie : <input type='email' name='mail'>
-                Date de début : <input type='number' name='age'>
-                Date de fin : <input type='text' name='genre'>
+                Catégorie : <input type='text' name='categ'>
+                Date de début : <input type='date' name='startD'>
+                Date de fin : <input type='date' name='endD'>
                 <input type='submit' value='Valider'>
             </form>
+            <small>$error</small>
             END;
+        }
+
+        else
+            //$rend .= $ad->listVehic($_POST['categ'], $_POST['startD'], $_POST['endD']);
+            $rend .= $ad->testQuery();
+
+        $test = $_POST['categ'] != "" ? "vrai" : "faux";
+        echo $test;
+
 
         break;
     case 'majCal':
@@ -46,30 +53,33 @@ switch ($action)
         $rend .= "Bienvenue !";
 }
 
+echo <<<END
+    <!doctype html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>SQL - Location Project</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="./">Accueil</a></li>
+                <li><a href="./?action=listVehic">List of available vehicles</a></li>
+                <li><a href="./?action=majCal">MAJ booking calendar</a></li>
+                <li><a href="./?action=locAmount">Locations amount</a></li>
+                <li><a href="./?action=categAgencies">Agencies with all vehicles' categories</a></li>
+                <li><a href="./?action=cliModels">Clients who have located 2 different models</a></li>
+            </ul>
+        </nav>
+        <main>
+            $rend
+        </main>
+    </body>
+    </html>
+END;
+
 ?>
 
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SQL - Location Project</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="./">Accueil</a></li>
-            <li><a href="./?action=listVehic">Ajouter un utilisateur</a></li>
-            <li><a href="./?action=majCal">Ajouter une playlist</a></li>
-            <li><a href="./?action=locAmount">Ajouter un podcast</a></li>
-            <li><a href="./?action=categAgencies">Ajouter un podcast</a></li>
-            <li><a href="./?action=cliModels">Ajouter un podcast</a></li>
-        </ul>
-    </nav>
-    <main>
-        <?php echo $rend; ?>
-    </main>
-</body>
-</html>
