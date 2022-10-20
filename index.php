@@ -34,10 +34,8 @@ switch ($action)
 
         else
             //$rend .= $ad->listVehic($_POST['categ'], $_POST['startD'], $_POST['endD']);
-            $rend .= $ad->testQuery();
-
-        $test = $_POST['categ'] != "" ? "vrai" : "faux";
-        echo $test;
+            //$rend .= $ad->testQuery();
+            $rend .= $ad->listVehic($_POST['categ'], $_POST['startD'], $_POST['endD']);
 
 
         break;
