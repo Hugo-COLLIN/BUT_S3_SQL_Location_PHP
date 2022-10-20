@@ -58,11 +58,12 @@ class AccessData
         //$st->bindParam(1, $table);
         $st->execute();
 
-        return $st->columnCount();
-        /*while ($row = $st->fetch(\PDO::FETCH_ASSOC)) {
-            for ($i = 0; $i < $st->rowCount() ; $i ++)
-                $res .= "i: " . $row[$i + 1];
-        }*/
+        //return $st->columnCount();
+        while ($row = $st->fetch(\PDO::FETCH_NUM)) {
+            for ($i = 0; $i < $st->columnCount() ; $i ++)
+                $res .= "$i: $row[$i] ";
+            $res .= "<br>";
+        }
         return $res;
     }
 }
