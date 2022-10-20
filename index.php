@@ -17,22 +17,20 @@ $method = $_SERVER['REQUEST_METHOD'];
 switch ($action)
 {
     case 'listVehic' :
-        $checkfields = (!isset($_POST['categ'], $_POST['startD'], $_POST['endD']) || ($_POST['categ'] == "" || $_POST['startD'] == "" || $_POST['endD'] == "")) && $method == "POST";
-        if ($method == "GET" || $checkfields)
-        {
-            $error = $checkfields ? "Veuillez remplir tous les champs !" : "";
+        $checkfields = (!isset($_POST['categ'], $_POST['startD'], $_POST['endD']) || ($_POST['categ'] == "" || $_POST['startD'] == "" || $_POST['endD'] == ""));
+        $error = $checkfields && $method == "POST" ? "Veuillez remplir tous les champs !<br>" : "";
 
-            $rend .= <<<END
-            <form method='post' action='?action=listVehic'>
-                Catégory : <input type='text' name='categ'>
-                Start date : <input type='date' name='startD'>
-                End date : <input type='date' name='endD'>
-                <input type='submit' value='Confirm'>
-            </form>
-            <small>$error</small>
-            END;
-        }
-        else
+        $rend .= <<<END
+        <form method='post' action='?action=listVehic'>
+            Catégory : <input type='text' name='categ'>
+            Start date : <input type='date' name='startD'>
+            End date : <input type='date' name='endD'>
+            <input type='submit' value='Confirm'>
+        </form>
+        <small>$error</small>
+        END;
+
+        if (!$checkfields)
         {
             $c = filter_var($_POST['categ'], FILTER_SANITIZE_SPECIAL_CHARS);
             $sD = filter_var($_POST['startD'], FILTER_SANITIZE_SPECIAL_CHARS);
@@ -41,23 +39,21 @@ switch ($action)
         }
         break;
     case 'majCal':
-        $checkfields = (!isset($_POST['plate'], $_POST['startD'], $_POST['endD']) || ($_POST['plate'] == "" || $_POST['startD'] == "" || $_POST['endD'] == "")) && $method == "POST";
-        if ($method == "GET" || $checkfields)
-        {
-            $error = $checkfields ? "Veuillez remplir tous les champs !" : "";
+        $checkfields = (!isset($_POST['plate'], $_POST['startD'], $_POST['endD']) || ($_POST['plate'] == "" || $_POST['startD'] == "" || $_POST['endD'] == ""));
+        $error = $checkfields && $method == "POST" ? "Veuillez remplir tous les champs !<br>" : "";
 
-            $rend .= <<<END
-            <form method='post' action='?action=majCal'>
-                Plate : <input type='text' name='plate'>
-                Start date : <input type='date' name='startD'>
-                End date : <input type='date' name='endD'>
-                Unfree : <input type="checkbox" name="loc">
-                <input type='submit' value='Confirm'>
-            </form>
-            <small>$error</small>
-            END;
-        }
-        else
+        $rend .= <<<END
+        <form method='post' action='?action=majCal'>
+            Plate : <input type='text' name='plate'>
+            Start date : <input type='date' name='startD'>
+            End date : <input type='date' name='endD'>
+            Unfree : <input type="checkbox" name="loc">
+            <input type='submit' value='Confirm'>
+        </form>
+        <small>$error</small>
+        END;
+
+        if (!$checkfields)
         {
             $p = filter_var($_POST['plate'], FILTER_SANITIZE_SPECIAL_CHARS);
             $sD = filter_var($_POST['startD'], FILTER_SANITIZE_SPECIAL_CHARS);
@@ -67,21 +63,19 @@ switch ($action)
         }
         break;
     case 'locAmount':
-        $checkfields = (!isset($_POST['model'], $_POST['duration']) || ($_POST['model'] == "" || $_POST['duration'] == "")) && $method == "POST";
-        if ($method == "GET" || $checkfields)
-        {
-            $error = $checkfields ? "Veuillez remplir tous les champs !" : "";
+        $checkfields = (!isset($_POST['model'], $_POST['duration']) || ($_POST['model'] == "" || $_POST['duration'] == ""));
+        $error = $checkfields && $method == "POST" ? "Veuillez remplir tous les champs !<br>" : "";
 
-            $rend .= <<<END
-            <form method='post' action='?action=locAmount'>
-                Model : <input type='text' name='model'>
-                Duration : <input type='number' name='duration'> days
-                <input type='submit' value='Confirm'>
-            </form>
-            <small>$error</small>
-            END;
-        }
-        else
+        $rend .= <<<END
+        <form method='post' action='?action=locAmount'>
+            Model : <input type='text' name='model'>
+            Duration : <input type='number' name='duration'> days
+            <input type='submit' value='Confirm'>
+        </form>
+        <small>$error</small>
+        END;
+
+        if (!$checkfields)
         {
             $m = filter_var($_POST['model'], FILTER_SANITIZE_SPECIAL_CHARS);
             $d = filter_var($_POST['duration'], FILTER_SANITIZE_SPECIAL_CHARS);
@@ -113,7 +107,7 @@ echo <<<END
             <ul>
                 <li><a href="./">Home</a></li>
                 <li><a href="./?action=listVehic">List of available vehicles</a></li>
-                <li><a href="./?action=majCal">MAJ booking calendar</a></li>
+                <li><a href="./?action=majCal">Update booking calendar</a></li>
                 <li><a href="./?action=locAmount">Locations amount</a></li>
                 <li><a href="./?action=categAgencies">Agencies with all vehicles' categories</a></li>
                 <li><a href="./?action=cliModels">Clients who have located 2 different models</a></li>
