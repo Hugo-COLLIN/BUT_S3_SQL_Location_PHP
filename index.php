@@ -4,18 +4,19 @@ require_once "vendor/autoload.php";
 use iutnc\location\db\ConnectionFactory;
 
 ConnectionFactory::setConfig('./config/db.config.ini');
-ConnectionFactory::makeConnection();
+//ConnectionFactory::makeConnection();
+
+$ad = new \iutnc\location\db\AccessData();
 
 $rend = "";
 $action = $_GET['action'] ?? "";
 $error = "";
+$method = $_SERVER['REQUEST_METHOD'];
 
-$ad = new \iutnc\location\db\AccessData();
 
 switch ($action)
 {
     case 'listVehic' :
-        $method = $_SERVER['REQUEST_METHOD'];
         $checkfields = (!isset($_POST['categ'], $_POST['startD'], $_POST['endD']) || ($_POST['categ'] == "" || $_POST['startD'] == "" || $_POST['endD'] == "")) && $method == "POST";
         if ($method == "GET" || $checkfields)
         {
@@ -31,15 +32,16 @@ switch ($action)
             <small>$error</small>
             END;
         }
-
         else
-            //$rend .= $ad->listVehic($_POST['categ'], $_POST['startD'], $_POST['endD']);
-            //$rend .= $ad->testQuery();
-            $rend .= $ad->listVehic($_POST['categ'], $_POST['startD'], $_POST['endD']);
-
-
+        {
+            $c = filter_var($_POST['categ'], FILTER_SANITIZE_SPECIAL_CHARS);
+            $sD = filter_var($_POST['startD'], FILTER_SANITIZE_SPECIAL_CHARS);
+            $eD = filter_var($_POST['endD'], FILTER_SANITIZE_SPECIAL_CHARS);
+            $rend .= $ad->listVehic($c, $sD, $eD);
+        }
         break;
     case 'majCal':
+
         break;
     case 'locAmount':
         break;

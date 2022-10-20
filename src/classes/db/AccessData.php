@@ -3,7 +3,13 @@
 namespace iutnc\location\db;
 class AccessData
 {
+    private \PDO $db;
     private \PDOStatement $st;
+
+    public function __construct()
+    {
+        $this->db = ConnectionFactory::makeConnection();
+    }
 
     /*
      * --- QUERIES METHODS ---
@@ -17,9 +23,27 @@ class AccessData
                 AND Vehicule.no_imm = Dossier.no_imm
             END;
 
-        $db = ConnectionFactory::makeConnection();
-        $this->st = $db->prepare($query);
+        $this->st = $this->db->prepare($query);
         $this->stSet([$categ, $stDate, $endDate]);
+        $this->st->execute();
+
+        return $this->display();
+    }
+
+    public function majCal (string $plate, string $stDate, string $endDate, int $loc)
+    {
+        $locParam = "";
+        $query = <<<END
+            UPDATE Calendrier
+            SET paslibre = ?
+            WHERE no_imm = ?
+                AND datejour BETWEEN ? AND ?
+            END;
+
+        $locParam = $loc == 1 ? "x" : null;
+
+        $this->st = $this->db->prepare($query);
+        $this->stSet([$locParam, $plate, $stDate, $endDate]);
         $this->st->execute();
 
         return $this->display();
