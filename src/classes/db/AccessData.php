@@ -3,6 +3,7 @@
 namespace iutnc\location\db;
 class AccessData
 {
+    private \PDOStatement $st;
 
     public function listVehic(string $categ, string $stDate, string $endDate) : string
     {
@@ -51,16 +52,22 @@ class AccessData
 
     public function testQuery ()
     {
-        $res = "";
+
         $table = "vehicule";
         $db = ConnectionFactory::makeConnection();
-        $st = $db->prepare("SELECT * FROM vehicule");
+        $this->st = $db->prepare("SELECT * FROM vehicule");
         //$st->bindParam(1, $table);
-        $st->execute();
+        $this->st->execute();
 
         //return $st->columnCount();
-        while ($row = $st->fetch(\PDO::FETCH_NUM)) {
-            for ($i = 0; $i < $st->columnCount() ; $i ++)
+        return $this->display();
+    }
+
+    public function display(): string
+    {
+        $res = "";
+        while ($row = $this->st->fetch(\PDO::FETCH_NUM)) {
+            for ($i = 0; $i < $this->st->columnCount() ; $i ++)
                 $res .= "$i: $row[$i] ";
             $res .= "<br>";
         }
