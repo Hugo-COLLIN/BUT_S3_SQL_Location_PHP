@@ -61,7 +61,7 @@ class AccessData
     public function locAmount (string $model, string $locDuration)
     {
         $query = <<<END
-            SELECT tarif.code_tarif, tarif_jour * MOD(?,7) + tarif_hebdo * FLOOR(?/7), '€' AS Montant_location
+            SELECT tarif.code_tarif, tarif_jour * MOD(?,7) + tarif_hebdo * FLOOR(?/7) AS Montant_location, '€' AS Devise
             FROM tarif
             WHERE tarif.code_tarif = (
                 SELECT categorie.code_tarif FROM Vehicule, Categorie
@@ -104,34 +104,23 @@ class AccessData
         return $this->display();
     }
 
-    public function testQuery ()
-    {
-        $table = 'citroen';
-        $v2 = 'peugeot';
-        $db = ConnectionFactory::makeConnection();
-        $this->st = $db->prepare("SELECT * FROM vehicule WHERE NOT marque = ? AND NOT marque = ?");
-
-        $this->st->bindValue(1, $table);
-        $this->st->bindValue(2, $v2);
-        //$this->stSet(array($table, $v2));
-        $this->st->execute();
-
-        //return $st->columnCount();
-        return $this->display();
-    }
-
     /*
      * --- BACKGROUND METHODS ---
      */
     private function display(): string
     {
         $res = "";
+        for ($i = 0; $i < $this->st->columnCount() ; $i ++)
+            $res .= $this->st->getColumnMeta($i)['name'] . " | ";
+        $res .= "<br>";
+        $in = false;
         while ($row = $this->st->fetch(\PDO::FETCH_NUM)) {
+            $in = true;
             for ($i = 0; $i < $this->st->columnCount() ; $i ++)
-                $res .= "$i: $row[$i] ";
+                $res .= "$row[$i] ";
             $res .= "<br>";
         }
-        if ($res == "") $res .= "Nothing to show...";
+        if (!$in) $res .= "Nothing to show...";
         return $res;
     }
 

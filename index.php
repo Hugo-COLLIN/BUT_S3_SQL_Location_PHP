@@ -27,6 +27,7 @@ switch ($action)
             End date : <input type='date' name='endD'>
             <input type='submit' value='Confirm'>
         </form>
+        <br>
         <small>$error</small>
         END;
 
@@ -103,6 +104,10 @@ echo <<<END
         <title>SQL - Location Project</title>
     </head>
     <body>
+    <header>
+        <h1>Hugo COLLIN - S3A</h1>
+        <h4>21/10/2022 - IUT Nancy-Charlemagne</h4>
+    </header>
         <nav>
             <ul>
                 <li><a href="./">Home</a></li>
