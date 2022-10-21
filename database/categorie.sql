@@ -1,7 +1,3 @@
-insert into categorie values();
-
-insert into categorie values('c1','citadine',4,'a1','t1');
-
-insert into categorie values('c2','compacte',5,'a1','t2');
-
-insert into categorie values('c3','familiale',5,'a1','t3');
+INSERT INTO CATEGORIE (CODE_CATEG, LIBELLE, NBPERS, TYPE_PERMIS, CODE_TARIF) VALUES ('c1', 'citadine', 4, 'a1', 't1');
+INSERT INTO CATEGORIE (CODE_CATEG, LIBELLE, NBPERS, TYPE_PERMIS, CODE_TARIF) VALUES ('c2', 'compacte', 5, 'a1', 't2');
+INSERT INTO CATEGORIE (CODE_CATEG, LIBELLE, NBPERS, TYPE_PERMIS, CODE_TARIF) VALUES ('c3', 'familiale', 5, 'a1', 't3');

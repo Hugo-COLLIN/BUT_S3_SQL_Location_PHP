@@ -1,305 +1,248 @@
-insert into calendrier values();
-
-insert into calendrier values('1234ya54',to_date('1-Oct-2015','DD-MON-YYYY'),null);
-
-
-                                                                                                   
-insert into calendrier values('1234ya54',to_date('2-Oct-2015','DD-MON-YYYY'),null);                                                                                                 
-
-insert into calendrier values('1234ya54',to_date('3-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('4-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('5-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('6-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('7-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('8-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('9-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('10-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('11-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('12-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('13-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('14-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('15-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('16-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('17-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('18-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('19-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('20-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('21-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('22-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('23-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('24-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('25-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('1234ya54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('1-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('2-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('3-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('4-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('5-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('6-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('7-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('8-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('9-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('10-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('11-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('12-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('13-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('14-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('15-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('16-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('17-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('18-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('19-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('20-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('21-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('22-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-
-insert into calendrier values('7418yc54',to_date('23-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('24-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('25-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('7418yc54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('1-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('2-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('3-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('4-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('5-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('6-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('7-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('8-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('9-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('10-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('11-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('12-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('13-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('14-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('15-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('16-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('17-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('18-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('19-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('20-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('21-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('22-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('23-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('24-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('25-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5698yd54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('1-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('2-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('3-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('4-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('5-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('6-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('7-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('8-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('9-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('10-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('6213yd54',to_date('11-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('6213yd54',to_date('12-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('6213yd54',to_date('13-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('6213yd54',to_date('14-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('6213yd54',to_date('15-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('6213yd54',to_date('16-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('17-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('18-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('19-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('20-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('21-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('22-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('23-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('24-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('25-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('6213yd54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('1-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('2-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('3-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('4-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('5-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('6-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('7-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('8-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('9-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('10-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('1789xv54',to_date('11-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('12-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('13-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('14-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('15-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('16-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('17-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('18-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('19-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('20-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('21-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('22-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('23-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('24-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('25-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('1789xv54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('1-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('2569yp54',to_date('2-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('2569yp54',to_date('3-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('2569yp54',to_date('4-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('2569yp54',to_date('5-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('2569yp54',to_date('6-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('7-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('8-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('9-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('10-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('11-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('12-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('13-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('14-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('15-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('16-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('17-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('18-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('19-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('20-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('21-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('22-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('23-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('24-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('25-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('2569yp54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('1-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('2-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('5213ye54',to_date('3-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('5213ye54',to_date('4-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('5213ye54',to_date('5-Oct-2015','DD-MON-YYYY'),'x');                                                                                                   
-insert into calendrier values('5213ye54',to_date('6-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('7-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('8-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('9-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('10-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('11-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('12-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('13-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('14-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('15-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('16-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('17-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('18-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('19-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('20-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('21-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('22-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('23-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('24-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('25-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('5213ye54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('1-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('2-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('3-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('4-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('5-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('6-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('7-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('8-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('9-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('10-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('11-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('12-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('13-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('14-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('15-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('16-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('17-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('18-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('19-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('20-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('21-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('22-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('23-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('24-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('25-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('26-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('27-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('28-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('29-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('30-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
-insert into calendrier values('4577yp54',to_date('31-Oct-2015','DD-MON-YYYY'),null);                                                                                                   
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-01', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-02', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-03', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-04', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-05', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-06', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-07', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-08', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-09', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-10', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-11', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-12', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-13', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-14', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-15', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-16', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-17', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-18', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-19', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-20', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-21', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-22', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-23', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-24', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-25', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1234ya54', str_to_date('2015-10-31', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-01', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-02', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-03', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-04', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-05', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-06', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-07', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-08', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-09', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-10', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-11', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-12', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-13', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-14', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-15', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-16', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-17', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-18', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-19', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-20', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-21', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-22', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-23', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-24', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-25', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('7418yc54', str_to_date('2015-10-31', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-01', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-02', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-03', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-04', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-05', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-06', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-07', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-08', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-09', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-10', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-11', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-12', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-13', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-14', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-15', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-16', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-17', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-18', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-19', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-20', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-21', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-22', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-23', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-24', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-25', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5698yd54', str_to_date('2015-10-31', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-01', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-02', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-03', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-04', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-05', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-06', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-07', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-08', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-09', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-10', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-11', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-12', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-13', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-14', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-15', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-16', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-17', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-18', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-19', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-20', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-21', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-22', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-23', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-24', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-25', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('6213yd54', str_to_date('2015-10-31', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-01', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-02', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-03', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-04', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-05', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-06', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-07', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-08', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-09', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-10', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-11', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-12', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-13', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-14', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-15', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-16', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-17', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-18', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-19', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-20', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-21', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-22', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-23', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-24', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-25', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('1789xv54', str_to_date('2015-10-31', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-01', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-02', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-03', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-04', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-05', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-06', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-07', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-08', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-09', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-10', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-11', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-12', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-13', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-14', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-15', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-16', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-17', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-18', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-19', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-20', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-21', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-22', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-23', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-24', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-25', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('2569yp54', str_to_date('2015-10-31', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-01', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-02', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-03', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-04', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-05', '%Y-%m-%d'), 'x');
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-06', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-07', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-08', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-09', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-10', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-11', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-12', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-13', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-14', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-15', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-16', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-17', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-18', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-19', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-20', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-21', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-22', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-23', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-24', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-25', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('5213ye54', str_to_date('2015-10-31', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-01', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-02', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-03', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-04', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-05', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-06', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-07', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-08', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-09', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-10', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-11', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-12', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-13', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-14', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-15', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-16', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-17', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-18', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-19', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-20', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-21', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-22', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-23', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-24', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-25', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-26', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-27', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-28', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-29', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-30', '%Y-%m-%d'), null);
+INSERT INTO CALENDRIER (NO_IMM, DATEJOUR, PASLIBRE) VALUES ('4577yp54', str_to_date('2015-10-31', '%Y-%m-%d'), null);

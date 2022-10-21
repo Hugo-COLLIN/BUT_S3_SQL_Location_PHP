@@ -1,21 +1,10 @@
-insert into dossier values();
-
-insert into dossier values(1,to_date('1-Oct-2015','DD-MON-YYYY'),to_date('5-Oct-2015','DD-MON-YYYY'),null,null,null,'t1','x',null,null,null,'duvig001','7418yc54','Nancy','Nancy','Nancy');
-
-insert into dossier values(2,to_date('1-Oct-2015','DD-MON-YYYY'),to_date('5-Oct-2015','DD-MON-YYYY'),null,null,null,'t1',null,null,null,null,'dumon001','2569yp54','Nancy','Nancy','Nancy');
-
-insert into dossier values(3,to_date('2-Oct-2015','DD-MON-YYYY'),to_date('10-Oct-2015','DD-MON-YYYY'),null,null,null,'t1','x',null,null,null,'delar001','1789xv54','Nancy','Nancy','Nancy');
-
-insert into dossier values(4,to_date('2-Oct-2015','DD-MON-YYYY'),to_date('5-Oct-2015','DD-MON-YYYY'),null,null,null,'t1',null,null,null,null,'delam001','5213ye54','Nancy','Nancy','Nancy');
-
-insert into dossier values(5,to_date('6-Oct-2015','DD-MON-YYYY'),to_date('7-Oct-2015','DD-MON-YYYY'),null,null,null,'t2','x',null,null,null,'roule001','7418yc54','Nancy','Nancy','Nancy');
-
-insert into dossier values(6,to_date('10-Oct-2015','DD-MON-YYYY'),to_date('15-Oct-2015','DD-MON-YYYY'),null,null,null,'t1',null,null,null,null,'duvig001','6213yd54','Nancy','Strasbourg','Nancy');
-
-insert into dossier values(7,to_date('10-Oct-2015','DD-MON-YYYY'),to_date('20-Oct-2015','DD-MON-YYYY'),null,null,null,'t1','x',null,null,null,'dumon001','1234ya54','Nancy','Nancy','Nancy');
-
-insert into dossier values(8,to_date('13-Oct-2015','DD-MON-YYYY'),to_date('14-Oct-2015','DD-MON-YYYY'),null,null,null,'t3',null,null,null,null,'delar001','7418yc54','Nancy','Nancy','Nancy');
-
-insert into dossier values(9,to_date('13-Oct-2015','DD-MON-YYYY'),to_date('14-Oct-2015','DD-MON-YYYY'),null,null,null,'t2',null,null,null,null,'delar001','6213yd54','Nancy','Nancy','Nancy');
-
-insert into dossier values(10,to_date('21-Oct-2015','DD-MON-YYYY'),to_date('25-Oct-2015','DD-MON-YYYY'),null,null,null,'t1','x',null,null,null,'roule001','1234ya54','Nancy','Nancy','Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (1, str_to_date('2015-10-01', '%Y-%m-%d'), str_to_date('2015-10-05', '%Y-%m-%d'), null, null, null, 't1', 'x', null, null, null, 'duvig001', '7418yc54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (2, str_to_date('2015-10-01', '%Y-%m-%d'), str_to_date('2015-10-05', '%Y-%m-%d'), null, null, null, 't1', null, null, null, null, 'dumon001', '2569yp54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (3, str_to_date('2015-10-02', '%Y-%m-%d'), str_to_date('2015-10-10', '%Y-%m-%d'), null, null, null, 't1', 'x', null, null, null, 'delar001', '1789xv54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (4, str_to_date('2015-10-02', '%Y-%m-%d'), str_to_date('2015-10-05', '%Y-%m-%d'), null, null, null, 't1', null, null, null, null, 'delam001', '5213ye54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (5, str_to_date('2015-10-06', '%Y-%m-%d'), str_to_date('2015-10-07', '%Y-%m-%d'), null, null, null, 't2', 'x', null, null, null, 'roule001', '7418yc54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (6, str_to_date('2015-10-10', '%Y-%m-%d'), str_to_date('2015-10-15', '%Y-%m-%d'), null, null, null, 't1', null, null, null, null, 'duvig001', '6213yd54', 'Nancy', 'Strasbourg', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (7, str_to_date('2015-10-10', '%Y-%m-%d'), str_to_date('2015-10-20', '%Y-%m-%d'), null, null, null, 't1', 'x', null, null, null, 'dumon001', '1234ya54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (8, str_to_date('2015-10-13', '%Y-%m-%d'), str_to_date('2015-10-14', '%Y-%m-%d'), null, null, null, 't3', null, null, null, null, 'delar001', '7418yc54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (9, str_to_date('2015-10-13', '%Y-%m-%d'), str_to_date('2015-10-14', '%Y-%m-%d'), null, null, null, 't2', null, null, null, null, 'delar001', '6213yd54', 'Nancy', 'Nancy', 'Nancy');
+INSERT INTO DOSSIER (NO_DOSSIER, DATE_RETRAIT, DATE_RETOUR, DATE_EFFECT, KIL_RETRAIT, KIL_RETOUR, TYPE_TARIF, ASSUR, NBJOUR_FACT, NBSEM_FACT, REMISE, CODE_CLI, NO_IMM, AG_RETRAIT, AG_RETOUR, AG_RESERVE) VALUES (10, str_to_date('2015-10-21', '%Y-%m-%d'), str_to_date('2015-10-25', '%Y-%m-%d'), null, null, null, 't1', 'x', null, null, null, 'roule001', '1234ya54', 'Nancy', 'Nancy', 'Nancy');
